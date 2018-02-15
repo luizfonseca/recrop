@@ -5,7 +5,7 @@ defmodule Recrop.Imager.Crop do
     end
 
 
-    def build(crop_info) do
+    def build() do
 
     end
 end

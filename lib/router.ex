@@ -5,6 +5,11 @@ defmodule Recrop.Router do
     "thank you"
   end
 
+
+  post "" do
+    
+  end
+
   # # Returns an empty body with a status code of 400
   # get "/bad" do
   #   :bad_request

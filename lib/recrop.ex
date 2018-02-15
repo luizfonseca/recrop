@@ -1,6 +1,4 @@
 defmodule Recrop do
-  import Recrop.Imager.Crop
-  import Recrop.Imager.Merge
 
   def crop do
 
@@ -8,6 +6,6 @@ defmodule Recrop do
 
 
   def merge do
-    
+
   end
 end

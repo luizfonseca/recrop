@@ -6,8 +6,8 @@ defmodule Recrop.Imager.Merge do
   end
 
 
-  def build(merge_data) do
-    
+  def build() do
+
   end
 
 end
