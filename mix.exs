@@ -5,10 +5,11 @@ defmodule Recrop.Mixfile do
     [
       app: :recrop,
       version: "0.1.0",
-      elixir: "~> 1.5",
+      elixir: "~> 1.6.1",
       name: "Recrop",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
+      config_path: "config/config.exs",
       deps: deps()
     ]
   end
@@ -16,7 +17,7 @@ defmodule Recrop.Mixfile do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger, :trot],
+      epplications: [:logger, :trot],
     ]
   end
 

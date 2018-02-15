@@ -2,8 +2,9 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-
+config :trot, :port, 4000
 config :trot, :router, RecropService.Router
+config :logger, level: :debug
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
