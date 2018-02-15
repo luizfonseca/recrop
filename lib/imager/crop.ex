@@ -1,11 +1,11 @@
 defmodule Recrop.Imager.Crop do
 
-    def init(_opts) do
+  def init(_opts) do
 
-    end
+  end
 
 
-    def build() do
+  def build() do
 
-    end
+  end
 end
