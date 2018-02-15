@@ -3,7 +3,7 @@
 use Mix.Config
 
 config :trot, :port, 4000
-config :trot, :router, RecropService.Router
+config :trot, :router, Recrop.Router
 config :logger, level: :debug
 
 # This configuration is loaded before any dependency and is restricted
