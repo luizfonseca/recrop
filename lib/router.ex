@@ -1,13 +1,41 @@
 defmodule Recrop.Router do
   use Trot.Router
+  import Recrop
+
 
   get "" do
-    "thank you"
+    #generate(Recrop.base64)
+    generate_image(~s({
+      "image": {
+        "data": "data:h73247hg3264;",
+        "merge": [
+          {
+            "data": "data:2312123",
+            "x": 1234,
+            "y": 50,
+            "index": 0
+          },
+          {
+            "data": "data:2312123",
+            "x": 1234,
+            "y": 50,
+            "index": 2
+          }
+
+        ],
+        "crop": {
+          "x": 200,
+          "y": 200,
+          "width": 300,
+          "height": 300
+        }
+      }
+    }))
   end
 
 
   post "" do
-    
+
   end
 
   # # Returns an empty body with a status code of 400
@@ -40,5 +68,6 @@ defmodule Recrop.Router do
   #   "The presenter is #{name}"
   # end
   #
+
   import_routes Trot.NotFound
 end
