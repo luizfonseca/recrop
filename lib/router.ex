@@ -2,7 +2,6 @@ defmodule Recrop.Router do
   use Trot.Router
   import Recrop
 
-
   get "" do
     #generate(Recrop.base64)
     generate_image(~s({
@@ -13,13 +12,13 @@ defmodule Recrop.Router do
             "data": "data:2312123",
             "x": 1234,
             "y": 50,
-            "index": 0
+            "index": 2
           },
           {
             "data": "data:2312123",
             "x": 1234,
             "y": 50,
-            "index": 2
+            "index": 0
           }
 
         ],
